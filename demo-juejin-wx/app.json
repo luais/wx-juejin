@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/infoCenter/infoCenter",
+    "pages/favorate/favorate",
+    "pages/collectionSet/collectionSet",
+    "pages/purchasedXiaoce/purchasedXiaoce",
+    "pages/myPins/myPins",
+    "pages/readHistory/readHistory",
+    "pages/manageTag/manageTag",
+    "pages/feedback/feedback",
+    "pages/setting/setting",
+    "pages/miniqrcode/miniqrcode",
+    "components/xiaoceItem/xiaoceItem",
+    "pages/xiaoce/xiaoce",
+    "components/postItemOne/postItemOne",
+    "components/postItemTwo/postItemTwo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "home",
+        "iconPath": "img/tab_home_normal.png",
+        "selectedIconPath": "img/tab_home.png"
+      },
+      {
+        "pagePath": "pages/xiaoce/xiaoce",
+        "text": "小册",
+        "iconPath": "img/tab_xiaoce_normal.png",
+        "selectedIconPath": "img/tab_xiaoce.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "my",
+        "iconPath": "img/tab_profile_normal.png",
+        "selectedIconPath": "img/tab_profile.png"
+      }
+    ]
+  }
+}

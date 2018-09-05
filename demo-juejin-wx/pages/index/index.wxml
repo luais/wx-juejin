@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<wxs module = 'filters' src='../../filter/filter.wxs'></wxs>
+
+<view class='container'>
+  <view class='hot card'>
+    <view class='btitle'>
+      <view class='l'>
+        <image class='icon' src='/img/ic_hot_home.png'></image>
+        <view>热门推荐</view>
+      </view>
+      <view class='r'> 
+        <image class='refresh' src='/img/refresh_icon.png' ></image>
+        <image class='close'  src='/img/chart_close.png'></image>
+      </view>
+    </view>
+    <postItemOne></postItemOne>
+  </view>
+
+  <view class='timeline'>
+    <postItemTwo></postItemTwo>
+  </view>
+
+  
+</view>

@@ -1,0 +1,20 @@
+<!--components/postItemOne/postItemOne.wxml-->
+<text>components/postItemOne/postItemOne.wxml</text>
+<wxs module='filters' src='../../filter/filter.wxs'></wxs>
+
+<view class="item{{graphics ? 'graphics' : ''}}" hover-class='hover-class' data-item='{{item}}' >
+  <view class='content'>
+    <view class='title'>title</view>
+    <view class='labels'>
+      <view class='label'>
+        <image src='/img/ic_collection.png'></image>
+        <view>like</view>
+      </view>
+      <view class='label'>
+        <image src='/img/home_hot.png'></image>
+        <view>name</view>
+      </view>
+    </view>
+  </view>
+</view>
+

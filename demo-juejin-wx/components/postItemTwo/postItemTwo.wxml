@@ -1,0 +1,33 @@
+<!--components/postItemTwo/postItemTwo.wxml-->
+<text>components/postItemTwo/postItemTwo.wxml</text>
+<wxs module='filters' src='../../filter/filter.wxs'></wxs>
+
+<view class='item card' hover-class='hover-class' >
+  <view class='header'>
+    <view class='name' >
+      <image mode='aspectFill' src='/img/default_avatar.png'></image>
+      <view> item-title-two</view>
+    </view>
+    <view class='type'>type title</view>
+  </view>
+
+  <view class='content'>
+    <view class='text'>
+      <view class='title'> text-Title</view>
+      <view class='desc'>text-content</view>
+    </view>
+
+    <image mode='aspectFill' class='img' src='item.screenshot'></image>
+  </view>
+
+  <view class='footer'>
+    <view class='label'>
+      <image src='/img/ic_dynamic_collect.png'></image>
+      <view>喜欢</view>
+    </view>
+    <view class='label'>
+      <image src='/img/ic_dynamic_comment.png'></image>
+      <view>评论</view>
+    </view>
+  </view>
+</view>

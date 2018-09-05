@@ -1,0 +1,4 @@
+<!--pages/xiaoce/xiaoce.wxml-->
+<view class='lists'>
+  <xiaoceItem ></xiaoceItem>
+</view>

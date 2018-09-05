@@ -1,0 +1,52 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+
+.items .item{
+  height: 90rpx;
+  padding: 0 40rpx;
+  border-bottom: 1rpx solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items .item:last-child{
+  border-bottom: none;
+}
+.items .item .title{
+  flex: 1;
+  font-size: 32rpx;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.items .item image{
+  width: 42rpx;
+  height: 42rpx;
+  margin-right: 40rpx;
+}
+
+.items .item .count{
+  font-size: 24rpx;
+  color: #abb4bf;
+}
+
+.items .item .count .reddot{
+  height: 30rpx;
+  line-height: 30rpx;
+  border-radius: 15rpx;
+  padding: 0 7px;
+  background: #ff5959;
+  color: #fff;
+}
+

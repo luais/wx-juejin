@@ -1,0 +1,126 @@
+<!--components/xiaoceItem/xiaoceItem.wxml-->
+<view class='list'  wx:key='{{index}}' catchtap='toXiaoceDetail'>
+  <image class='poster' src='/img/icon_feed_back.png'></image>
+
+  <view class='info'>
+    <view class='title'>title</view>
+    <view class='author'>author</view>
+
+    <view class='others'>
+      <view>
+        <text>预售</text>
+        <text>55小节</text>
+        <text>4人已购买</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class='price'>$20</view> -->
+  <view class='price'>惠$10</view>
+</view>
+
+
+
+
+
+
+
+<view class='list'  wx:key='{{index}}' catchtap='toXiaoceDetail'>
+  <image class='poster' src='/img/icon_feed_back.png'></image>
+
+  <view class='info'>
+    <view class='title'>title</view>
+    <view class='author'>author</view>
+
+    <view class='others'>
+      <view>
+        <text>预售</text>
+        <text>55小节</text>
+        <text>4人已购买</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class='price'>$20</view> -->
+  <view class='price'>惠$10</view>
+</view>
+
+<view class='list'  wx:key='{{index}}' catchtap='toXiaoceDetail'>
+  <image class='poster' src='/img/icon_feed_back.png'></image>
+
+  <view class='info'>
+    <view class='title'>title</view>
+    <view class='author'>author</view>
+
+    <view class='others'>
+      <view>
+        <text>预售</text>
+        <text>55小节</text>
+        <text>4人已购买</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class='price'>$20</view> -->
+  <view class='price'>惠$10</view>
+</view>
+
+<view class='list'  wx:key='{{index}}' catchtap='toXiaoceDetail'>
+  <image class='poster' src='/img/icon_feed_back.png'></image>
+
+  <view class='info'>
+    <view class='title'>title</view>
+    <view class='author'>author</view>
+
+    <view class='others'>
+      <view>
+        <text>预售</text>
+        <text>55小节</text>
+        <text>4人已购买</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class='price'>$20</view> -->
+  <view class='price'>惠$10</view>
+</view>
+
+<view class='list'  wx:key='{{index}}' catchtap='toXiaoceDetail'>
+  <image class='poster' src='/img/icon_feed_back.png'></image>
+
+  <view class='info'>
+    <view class='title'>title</view>
+    <view class='author'>author</view>
+
+    <view class='others'>
+      <view>
+        <text>预售</text>
+        <text>55小节</text>
+        <text>4人已购买</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class='price'>$20</view> -->
+  <view class='price'>惠$10</view>
+</view>
+
+<view class='list'  wx:key='{{index}}' catchtap='toXiaoceDetail'>
+  <image class='poster' src='/img/icon_feed_back.png'></image>
+
+  <view class='info'>
+    <view class='title'>title</view>
+    <view class='author'>author</view>
+
+    <view class='others'>
+      <view>
+        <text>预售</text>
+        <text>55小节</text>
+        <text>4人已购买</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- <view class='price'>$20</view> -->
+  <view class='price'>惠$10</view>
+</view>
