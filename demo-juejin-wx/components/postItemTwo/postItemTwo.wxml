@@ -17,7 +17,7 @@
       <view class='desc'>text-content</view>
     </view>
 
-    <image mode='aspectFill' class='img' src='item.screenshot'></image>
+    <image mode='aspectFill' class='img' ></image>
   </view>
 
   <view class='footer'>

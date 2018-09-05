@@ -1,4 +1,4 @@
 <!--pages/xiaoce/xiaoce.wxml-->
 <view class='lists'>
-  <xiaoceItem ></xiaoceItem>
+  <xiaoceItem list='{{xiaoceList}}'></xiaoceItem>
 </view>
