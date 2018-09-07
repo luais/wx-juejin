@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/launch/launch",
     "pages/index/index",
     "pages/logs/logs",
     "pages/my/my",
@@ -17,6 +18,7 @@
     "pages/xiaoce/xiaoce",
     "components/postItemOne/postItemOne",
     "components/postItemTwo/postItemTwo"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
