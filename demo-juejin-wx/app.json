@@ -17,8 +17,8 @@
     "components/xiaoceItem/xiaoceItem",
     "pages/xiaoce/xiaoce",
     "components/postItemOne/postItemOne",
-    "components/postItemTwo/postItemTwo"
-    
+    "components/postItemTwo/postItemTwo",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -45,6 +45,12 @@
         "text": "my",
         "iconPath": "img/tab_profile_normal.png",
         "selectedIconPath": "img/tab_profile.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "search",
+        "iconPath": "img/tab_explore_normal.png",
+        "selectedIconPath": "img/tab_explore.png"
       }
     ]
   }
